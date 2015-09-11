@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>BattleShip</title>
+	<link rel="stylesheet" type="text/css" href="css/BattleShipBoard.css">
+	<script src="js/BattleshipSetUp.js"></script>
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script>
+	$( document ).ready(function() {
+		createStartMenuScreen();
+	});
+	</script>
+	<script type="text/javascript">
+	$(window).keypress(function(e) {
+    	keyPressed(e);   
+   	});
+	</script>
+</head>
+<body>
+	<div id = "header">BattleShip</div>
+	<div id = "main"></div>
+</body>
+</html>
